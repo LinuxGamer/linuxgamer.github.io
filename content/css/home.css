@@ -1,5 +1,13 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #23272A;
+    color: #fff;
+}
+
 body {
     font-family: 'Lato', sans-serif;
+    margin: 0;
 }
 
 a#link.unavailable {
@@ -9,5 +17,22 @@ a#link.unavailable {
 
 #container.list.gados {
     color: #4287f5;
-    font-weight: bold
+    font-weight: bold;
+}
+
+h1#logo.text {
+    margin-top: 0;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+p {
+    text-align: center
+}
+
+div {
+    margin: 0 auto;
+    text-align: center;
 }
