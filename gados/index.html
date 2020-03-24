@@ -10,6 +10,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
         
         <link rel="stylesheet" typer="text/css" href="../content/css/home.css">
+        
+        <script async src="https://www.youtube.com/iframe_api"></script>
     </head>    
     
     <body>
@@ -23,7 +25,7 @@
             <ul class="list gados">
                 <li><a id="container" class="list gados" onclick="location.href='https://pt.wikipedia.org/wiki/Alentejana_(ra%C3%A7a_bovina)'">Alentejana</a> - de Portugal, - para carne e como animal de tração</li>
                 <li><a id="container" class="list gados" onclick="location.href='https://pt.wikipedia.org/wiki/Angus_(ra%C3%A7a_bovina)'">Angus</a> - do nordeste da Escócia, sem chifres, para corte</li>
-                <li><a id="container" class="list gados" onclick="location.href='https://pt.wikipedia.org/wiki/Caracu'">Caracu</a> - para carne e como animal de tração</li>
+                <li><a id="container" class="list gados" onclick="location.href='https://pt.wikipedia.org/wiki/Caracu', "_blank"" target="">Caracu</a> - para carne e como animal de tração</li>
                 <li><a id="container" class="list gados" onclick="location.href='https://pt.wikipedia.org/wiki/Charolais'">Charolais</a> ou charolês - para carne</li>
                 <li><a id="container" class="list gados" onclick="location.href='https://pt.wikipedia.org/wiki/Devon_(bovino)'">Devon</a> - da Inglaterra, para carne</li>
                 <li><a id="container" class="list gados" onclick="location.href='https://pt.wikipedia.org/wiki/Holstein-Fr%C3%ADsia'">Frísia</a>, ou Holstein - para leite</li>
@@ -35,6 +37,33 @@
                 <li><a id="container" class="list gados" onclick="location.href='https://pt.wikipedia.org/wiki/Simental'">Simental</a> ou suíça-malhada</li>
             </ul>
         </div>
+        <div id="bga"></div>
+        <script>
+        function onYouTubeIframeAPIReady() {
+        var player;
+
+        player = new YT.Player('bga', {
+            videoId: 'XGyzPEdavEY',
+            width: 560,
+            height: 316,
+            playerVars: {
+                'autoplay': 1,
+                'controls': 0,
+                'showinfo': 0,
+                'modestbranding': 0,
+                'loop': 1,
+                'fs': 0,
+                'cc_load_policty': 0,
+                'iv_load_policy': 3
+            },
+            events: {
+                'onReady': function (e) {
+                    e.target.setVolume(25);
+                }
+            }
+        });
+    }
+        </script>
     </body>
     
 </html>

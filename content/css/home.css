@@ -49,3 +49,7 @@ h3#titulo.lista {
 a#link.back {
     text-align: left;
 }
+
+#bga {
+    display: none;
+}
