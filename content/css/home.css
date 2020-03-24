@@ -36,3 +36,7 @@ div {
     margin: 0 auto;
     text-align: center;
 }
+
+div#container.list.gados {
+    text-align: left;
+}
