@@ -1,0 +1,13 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+a#link.unavailable {
+    color: #FF0000;
+    font-weight: bold
+}
+
+a#list.gados {
+    color: #4287f5;
+    font-weight: bold
+}
