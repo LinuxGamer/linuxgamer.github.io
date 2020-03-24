@@ -15,7 +15,7 @@ a#link.unavailable {
     font-weight: bold
 }
 
-#container.list.gados {
+a#container.list.gados {
     color: #4287f5;
     font-weight: bold;
 }
@@ -38,5 +38,14 @@ div {
 }
 
 div#container.list.gados {
+    text-align: left;
+}
+
+h3#titulo.lista {
+    text-align: left;
+    color: #fff;
+}
+
+a#link.back {
     text-align: left;
 }
